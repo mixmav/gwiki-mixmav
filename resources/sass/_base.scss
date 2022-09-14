@@ -1,0 +1,26 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+*{
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	color: rgba(black, 0.8);
+	&:focus{
+		outline: 0;
+	}
+	&:before, &:after{
+		box-sizing: border-box;
+	}
+}
+
+::selection{
+	background: #DA4167;
+	color: white;
+}
+
+#content-container{
+	min-width: 300px;
+}
